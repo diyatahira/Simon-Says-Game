@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <input type="text" placeholder="Enter your name">
+        <button class="gameStarter">Let's Start</button>
+    </div>
+    
+    <div class="container">
+        <h1>Simon Says</h1>
+        <h2>Start Game By Pressing the Button</h2>
+        <div class="outer1">
+            <div class="red" type="button" id="btn"></div>
+            <div class="green" type="button" id="btn"></div>
+            <p>Highest Score : 0</p>
+        </div>
+        <h1 id="gameOver">
+            Game Over! Hehehe
+            <!-- <br>
+            <button>Replay</button> -->
+        </h1>
+        <div class="outer2">
+            <div class="blue" type="button" id="btn"></div>
+            <div class="yellow" type="button" id="btn"></div>
+        </div>
+        <div>
+            <button class="start">Start</button>
+            <button class="end">Replay</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
