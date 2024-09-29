@@ -14,4 +14,4 @@ JavaScript (ES6): For game logic and interactivity.
 Press the Start button to begin the game.
 The game will show a sequence of colors. Memorize the order.
 Repeat the sequence by clicking the colored buttons in the correct order.
-The sequence will increase with each round. Continue until you make a mistake!
+The sequence will increase with each round. Continue until you make a mistake
